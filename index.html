@@ -36,7 +36,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <style>
-        /* Coloca aquí tus estilos CSS personalizados si es necesario */
+        .boton:hover{
+            color: #854fee;
+        }
     </style>
 </head> 
 
@@ -54,19 +56,19 @@
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                            <a id="boton" class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#quien-soy">Quien Soy</a>
+                            <a id="boton" class="nav-link" href="#quien-soy">Quien Soy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#lenguajes">Lenguajes</a>
+                            <a id="boton" class="nav-link" href="#lenguajes">Lenguajes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#proyectos">Proyectos</a>
+                            <a id="boton" class="nav-link" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#creditos">Creditos</a>
+                            <a id="boton" class="nav-link" href="#creditos">Creditos</a>
                         </li>
 
                     </ul>
@@ -85,13 +87,13 @@
                         <h3 class="title-text">Hola!</h3>
                         <h1 class="title-text text-uppercase">Soy Ignacio</h1>
                         <h4 class="title-text text-uppercase">Desarrollador Junior</h4>
-                        <div class="site-buttons">
+                        <div class="row">
                             <div class="d-flex flex-row flex-wrap">
-                                <a href="./CV_Ignacio_Aranda.pdf" download>
-                                    <button type="button" class="btn button secondary-button text-uppercase">Descargar CV</button>
-                            </a>
-                                <a href="https://www.linkedin.com/in/ignacioaranda/" target="_blank" class="btn button secondary-button text-uppercase">
-                                    <i class="fab fa-linkedin fa-1x px-1"></i>
+                                <a  href="./CV_Ignacio_Aranda.pdf" download>
+                                    <button id="boton" type="button" class="btn button text-uppercase" style="text-decoration-line: underline;">Descargar CV</button>
+                                </a>
+                                <a href="https://www.linkedin.com/in/ignacioaranda/" target="_blank" class="btn button text-uppercase"">
+                                    <i id="boton" class="fab fa-linkedin"></i>
                                 </a>
                             </div>
                         </div>
@@ -129,7 +131,7 @@
                             </p>
                         </div>
                         <a href="./CV_Ignacio_Aranda.pdf" download>
-                            <button type="button" class="btn button primary-button text-uppercase">Descargar CV</button>
+                            <button id="boton" type="button" class="btn button text-uppercase" style="text-decoration-line: underline;">Descargar CV</button>
                         </a>
                     </div>
                 </div>
@@ -177,7 +179,7 @@
                     <div class="col-xl-6 col-lg-12 col-md-12">
                         <div class="experience-area">
                             <div class="d-flex flex-row years-area">
-                                <h1 class="p-3 years">Lenguajes</h1>
+                                <h1 class="title-text text-uppercase">Lenguajes</h1>
                             </div>
                             <div class="d-flex flex-row flex-wrap call-area">
                                 <span><i class="fas fa-envelope fa-3x px-3"></i></span>
